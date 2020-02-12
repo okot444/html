@@ -1,0 +1,66 @@
+.menu
+{
+    position: fixed; /* Фиксированное положение */
+    width: 100%;/* Расстояние от правого края окна браузера */
+    height: 150px;
+    top: 0; /* Расстояние сверху */
+    background: green; /* Цвет фона */ 
+    margin-top: 10px;
+}
+div{ 
+  background : #d3d3d3;
+  border: 1px solid black;
+    
+}
+
+
+.menu li,img,.block { 
+    display: inline-block; 
+}
+.menu li
+{
+    margin-left: 100px;
+}
+.block
+{
+    background : green;
+}
+/*.menu a {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;*/
+}
+
+.pr,.p{
+    width: 98%;
+    height: 200px;
+    border: 5px solid #333;
+    padding: 15px;
+}
+.pr{
+    padding: 10px;
+    margin-top: 200px;
+}
+.p{
+    margin-top: 1%;/* Расстояние сверху */
+}
+
+.block1,.block2{
+    width: 32%;
+    height: 170px;
+    background:  #4169E0;
+    margin: 3px;
+}
+.block1{
+    display:inline-block;
+}
+.block2{
+    width: 98%;
+    height: 50px;
+    border: 1px solid #333;
+    padding: 6px;
+    margin: 3px;
+}
